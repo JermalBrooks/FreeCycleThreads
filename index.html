@@ -1,64 +1,88 @@
 <!doctype html>
-<html>
-  
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel ="stylesheet" href="main.css">
-    <title>FreecycleThreads</title>
-    </head>
-    <header>
-      <h1>FreecycleThreads</h1>
-    </header>
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-      }
-
-      h2,
-      p {
-        margin: 10px;
-      }
-
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333333;
-      }
-
-      ul li {
-        float: left;
-      }
-
-      ul li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
-
-      ul li a:hover {
-        background-color: #111111;
-      }
-    </style>
+    <title>FreeCycleThreads | Home</title>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#mens">Mens</a></li>
-      <li><a href="#womens">Womens</a></li>
-      <li><a href="#about">About</a></li>
-    </ul>
-<h2>Pre-loved threads,<br>
-new stories.<br></h2><br>
-<h3>Curated secondhand clothing — sustainable, affordable, and full of character.</h3><br>
-    
-<footer>
-About Us | Contact | Terms of Service | Privacy Policy
-</footer>
+    <header>
+      <h1>FreeCycleThreads</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="men.html">Shop</a>
+            <ul class="dropdown-menu">
+              <li><a href="men.html">Men</a></li>
+              <li><a href="women.html">Women</a></li>
+            </ul>
+          </li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h2>Pre-Loved Threads, New Stories</h2>
+        <p>Shop affordable secondhand clothing with character, comfort, and a smaller footprint.</p>
+        <a class="button" href="men.html">Shop Now</a>
+      </section>
+
+      <section>
+        <h2>Shop By Category</h2>
+        <div class="card-grid">
+          <article class="simple-card">
+            <h3>Jackets</h3>
+            <p>Layer up with thrifted outerwear.</p>
+          </article>
+          <article class="simple-card">
+            <h3>Shirts</h3>
+            <p>Find everyday tees and button-ups.</p>
+          </article>
+          <article class="simple-card">
+            <h3>Pants</h3>
+            <p>Comfortable denim, chinos, and more.</p>
+          </article>
+          <article class="simple-card">
+            <h3>Accessories</h3>
+            <p>Small pieces that finish the fit.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Latest Drops</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image image-vintage-work-jacket rollover"></div>
+            <h3>Vintage Work Jacket</h3>
+            <p>$24.00</p>
+            <a class="button add-cart" href="cart.html" data-item="Vintage Work Jacket">Add to Cart</a>
+          </article>
+          <article class="product-card">
+            <div class="product-image image-soft-cotton-shirt"></div>
+            <h3>Soft Cotton Shirt</h3>
+            <p>$12.00</p>
+            <a class="button add-cart" href="cart.html" data-item="Soft Cotton Shirt">Add to Cart</a>
+          </article>
+          <article class="product-card">
+            <div class="product-image image-relaxed-denim-pants"></div>
+            <h3>Relaxed Denim Pants</h3>
+            <p>$18.00</p>
+            <a class="button add-cart" href="cart.html" data-item="Relaxed Denim Pants">Add to Cart</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>About Us | Contact | Terms of Service | Privacy Policy</p>
+    </footer>
+    <script src="script.js" defer></script>
   </body>
 </html>
+>

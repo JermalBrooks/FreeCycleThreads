@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FreeCycleThreads | Cart</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1>FreeCycleThreads</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="men.html">Shop</a>
+            <ul class="dropdown-menu">
+              <li><a href="men.html">Men</a></li>
+              <li><a href="women.html">Women</a></li>
+            </ul>
+          </li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <h2>Your Basket</h2>
+        <p>This is a simple sample cart for the class project.</p>
+      </section>
+
+      <section class="basket">
+        <article class="cart-item" data-price="24">
+          <h3>Canvas Jacket</h3>
+          <p>Price: $24.00</p>
+          <p>Quantity: 1</p>
+          <button type="button" class="remove-button">Remove</button>
+        </article>
+        <article class="cart-item" data-price="20">
+          <h3>Floral Dress</h3>
+          <p>Price: $20.00</p>
+          <p>Quantity: 1</p>
+          <button type="button" class="remove-button">Remove</button>
+        </article>
+        <article class="cart-item" data-price="11">
+          <h3>White Blouse</h3>
+          <p>Price: $11.00</p>
+          <p>Quantity: 1</p>
+          <button type="button" class="remove-button">Remove</button>
+        </article>
+
+        <div class="total-box">
+          <h3>Total: $<span id="cart-total">55.00</span></h3>
+          <a class="button purchase-button" href="order.html">Purchase</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>About Us | Contact | Terms of Service | Privacy Policy</p>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

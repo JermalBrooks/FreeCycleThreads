@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FreeCycleThreads | Women's Clothing</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1>FreeCycleThreads</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="men.html">Shop</a>
+            <ul class="dropdown-menu">
+              <li><a href="men.html">Men</a></li>
+              <li><a href="women.html">Women</a></li>
+            </ul>
+          </li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <h2>Women's Clothing</h2>
+        <p>Pre-loved clothes with warm colors and easy style.</p>
+      </section>
+
+      <section class="product-grid">
+        <article class="product-card">
+          <div class="product-image image-floral-dress"></div>
+          <h3>Floral Dress</h3>
+          <p>$20.00</p>
+          <a class="button add-cart" href="cart.html" data-item="Floral Dress">Add to Cart</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-knit-cardigan"></div>
+          <h3>Knit Cardigan</h3>
+          <p>$16.00</p>
+          <a class="button add-cart" href="cart.html" data-item="Knit Cardigan">Add to Cart</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-denim-skirt"></div>
+          <h3>Denim Skirt</h3>
+          <p>$13.00</p>
+          <a class="button add-cart" href="cart.html" data-item="Denim Skirt">Add to Cart</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-white-blouse"></div>
+          <h3>White Blouse</h3>
+          <p>$11.00</p>
+          <a class="button add-cart" href="cart.html" data-item="White Blouse">Add to Cart</a>
+        </article>
+      </section>
+
+      <section class="form-box">
+        <h2>Post Your Own Item</h2>
+        <form class="post-form">
+          <label for="women-item">Item Name</label>
+          <input id="women-item" type="text" placeholder="Example: Blue Sweater">
+
+          <label for="women-price">Price</label>
+          <input id="women-price" type="text" placeholder="Example: $12">
+
+          <button type="button" class="post-button">Post Item</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>About Us | Contact | Terms of Service | Privacy Policy</p>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>

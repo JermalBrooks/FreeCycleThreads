@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FreeCycleThreads | Men's Clothing</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1>FreeCycleThreads</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="men.html">Shop</a>
+            <ul class="dropdown-menu">
+              <li><a href="men.html">Men</a></li>
+              <li><a href="women.html">Women</a></li>
+            </ul>
+          </li>
+          <li><a href="cart.html">Cart</a></li>
+          <li><a href="order.html">Order</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-title">
+        <h2>Men's Clothing</h2>
+        <p>Simple secondhand basics for everyday outfits.</p>
+      </section>
+
+      <section class="product-grid">
+        <article class="product-card">
+          <div class="product-image image-canvas-jacket rollover"></div>
+          <h3>Canvas Jacket</h3>
+          <p>$24.00</p>
+          <a class="button add-cart" href="cart.html" data-item="Canvas Jacket">Add to Cart</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-plaid-shirt"></div>
+          <h3>Plaid Shirt</h3>
+          <p>$14.00</p>
+          <a class="button add-cart" href="cart.html" data-item="Plaid Shirt">Add to Cart</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-brown-pants"></div>
+          <h3>Brown Pants</h3>
+          <p>$18.00</p>
+          <a class="button add-cart" href="cart.html" data-item="Brown Pants">Add to Cart</a>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-denim-shorts"></div>
+          <h3>Denim Shorts</h3>
+          <p>$10.00</p>
+          <a class="button add-cart" href="cart.html" data-item="Denim Shorts">Add to Cart</a>
+        </article>
+      </section>
+
+      <section class="form-box">
+        <h2>Post Your Own Item</h2>
+        <form class="post-form">
+          <label for="men-item">Item Name</label>
+          <input id="men-item" type="text" placeholder="Example: Green Hoodie">
+
+          <label for="men-price">Price</label>
+          <input id="men-price" type="text" placeholder="Example: $15">
+
+          <button type="button" class="post-button">Post Item</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>About Us | Contact | Terms of Service | Privacy Policy</p>
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
+>
