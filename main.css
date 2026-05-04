@@ -236,10 +236,6 @@ input {
   text-align: right;
 }
 
-.plain-list {
-  padding-left: 22px;
-}
-
 .status-steps {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
